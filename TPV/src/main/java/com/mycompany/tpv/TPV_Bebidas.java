@@ -379,23 +379,23 @@ public class TPV_Bebidas extends javax.swing.JDialog {
     public void verificadorBebidas(ActionEvent evt) {
         JToggleButton button = (JToggleButton) evt.getSource();
         if (button == beerButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(0); // Esto es solo un ejemplo, ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(0); 
         } else if (button == wineButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(1); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(1); 
         } else if (button == spriteButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(2); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(2); 
         } else if (button == tequilaButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(3); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(3);
         } else if (button == margaritaButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(4); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(4); 
         } else if (button == this.bloodyButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(5); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(5); 
         } else if (button == this.mojitoButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(6); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(6);
         } else if (button == this.cokeButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(7); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(7); 
         } else if (button == this.waterButton) {
-            bebidaSeleccionada = Productos.BEBIDAS.get(8); // Ajusta según tu lógica
+            bebidaSeleccionada = Productos.BEBIDAS.get(8);
         }
         escogerLabel.setText(bebidaSeleccionada.nombreProducto);
         precioLabel.setText(bebidaSeleccionada.precio + " euros");
